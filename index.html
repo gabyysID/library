@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estante de Livros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bookshelf-container">
+        <div class="category-bar">
+            <div class="category">HARRY POTTER</div>
+            <div class="category">FAMOSOS DO TIKTOK</div>
+            <div class="category">DISTOPIAS</div>
+            <div class="category">MANGÁS</div>
+        </div>
+        <div class="bookshelf">
+            <div class="shelf">
+                <div class="book" onclick="openBook('pdfs/Harry Potter e a Pedra Filosofal.pdf')">
+                    <img src="https://i.pinimg.com/564x/f1/d9/2f/f1d92f9eba42ecb65f455d39c5e73c77.jpg" alt="Pedra Filosofal">
+                </div>
+                <div class="book" onclick="openBook('pdfs/Harry_Potter_e_a_Câmara_Secreta_pdf.pdf')">
+                    <img src="https://i.pinimg.com/564x/38/77/11/3877114f0a3f426f72152eb3b5ab7033.jpg" alt="Câmara Secreta">
+                </div>
+                <div class="book" onclick="openBook('pdfs/Harry Potter e o Prisioneiro de Azkaban.pdf')">
+                    <img src="https://i.pinimg.com/736x/30/f5/6c/30f56c8b4ba2a353580af02980aac05b.jpg" alt="Prisioneiro de Azkaban">
+                </div>
+                <div class="book" onclick="openBook('pdfs/Harry_Potter_e_o_cálice_de_fogo_pdf.pdf')">
+                    <img src="https://i.pinimg.com/564x/a4/54/2c/a4542c4cd5dc2a70ec60576e1bba20e7.jpg" alt="Cálice de Fogo">
+                </div>
+                <div class="book" onclick="openBook('pdfs/Harry_Potter_e_a_ordem_da_fênix_pdf.pdf')">
+                    <img src="https://i.pinimg.com/564x/ee/93/55/ee935540de92ef3de9505966fc669e40.jpg" alt="Ordem da Fênix">
+                </div>
+                <div class="book" onclick="openBook('pdfs/Harry_Potter_e_o_enigma_do_príncipe_pdf.pdf')">
+                    <img src="https://i.pinimg.com/564x/d3/de/bd/d3debd6a9e01f210f48f4bd5a04656ef.jpg" alt="Enigma Do Príncipe">
+                </div>
+                <div class="book" onclick="openBook('pdfs/Harry_Potter_e_as_relíquias_da_morte_pdf.pdf')">
+                    <img src="https://i.pinimg.com/564x/b7/a7/f5/b7a7f54108ee88cce24dafe5edb5624b.jpg" alt="Relíquias da Morte">
+                </div>
+            </div>
+            <!-- Adicione mais prateleiras conforme necessário -->
+            <div class="shelf">
+                <div class="book" onclick="openBook('pdfs/Harry Potter e a Criança Amaldiçoada.pdf')">
+                    <img src="https://i.pinimg.com/564x/60/80/a7/6080a7535d937a2eb6c27d21076a2362.jpg" alt="Criança Amaldiçoada">
+                </div>
+                <div class="book" onclick="openBook('pdfs/Harry_Potter_e_a_Câmara_Secreta_pdf.pdf')">
+                    <img src="https://i.pinimg.com/736x/50/bc/2c/50bc2c42d0462d4c4c3435dc631212c3.jpg" alt="Câmara Secreta">
+                </div>
+                <div class="book" onclick="openBook('')">
+                    <img src="https://images.dlivros.org/J-K-Rowling/bardo-contos-beedle-rowling_large.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
