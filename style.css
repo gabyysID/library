@@ -20,7 +20,7 @@ body {
 }
 
 .category-bar {
-    margin-top:5px;
+    margin-top: 5px;
     display: flex;
     justify-content: space-around;
     background-color: #3a1e09;
@@ -34,13 +34,21 @@ body {
     font-size: 1.5em;
 }
 
+.category a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.category a:visited {
+    color: inherit;
+}
+
 .bookshelf {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     overflow-y: auto;
     margin-top: 20px;
-    
 }
 
 .shelf {
@@ -74,6 +82,7 @@ body {
 .book:hover {
     transform: scale(1.1);
 }
+
 ::-webkit-scrollbar {
     width: 0px;
 }
