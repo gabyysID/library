@@ -42,6 +42,12 @@ body {
 .category a:visited {
     color: inherit;
 }
+.bookshelf-info {
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+    margin-top: 15px ;
+}
 
 .bookshelf {
     display: flex;
@@ -86,3 +92,4 @@ body {
 ::-webkit-scrollbar {
     width: 0px;
 }
+
